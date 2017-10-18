@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基于webapp输入法遮挡输入解决</title>
+	<meta name="keywords" content="由wos组织的基于webapp输入框被输入法遮盖解决模块">
+	<link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+	<script src="autoTypewriting.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+  <header data-am-widget="header" class="am-header am-header-default">
+	<div class="am-header-left am-header-nav">
+	  <a href="#" class="">
+	        <i class="am-header-icon am-icon-home"></i>
+	  </a>
+	</div>
+
+	<h1 class="am-header-title">
+	  <a href="#title-link" class="">
+	    输入法遮挡输入
+	  </a>
+	</h1>
+
+	<div class="am-header-right am-header-nav">
+	  <a href="#right-link" class="">
+	  	<i class="am-header-icon am-icon-bars"></i>
+	  </a>
+	</div>
+  </header>
+
+
+	<div style="padding: 30px 10px">
+		<form class="am-form">
+		  <fieldset>
+		    <legend>表单标题</legend>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-email-1">邮件</label>
+		      <input type="email" class="" id="doc-ipt-email-1" placeholder="输入电子邮件" blur="console.log('aaa')">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">密码</label>
+		      <input type="password" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么一</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么二</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧" onFocus="console.log('hihi')">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么三</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么四</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么五</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么六</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ipt-pwd-1">想说什么七</label>
+		      <input type="text" class="" id="doc-ipt-pwd-1" placeholder="设置个密码吧">
+		    </div>
+
+		    <div class="am-form-group">
+		      <label for="doc-ta-1">文本域</label>
+		      <textarea class="" rows="5" id="doc-ta-1"></textarea>
+		    </div>
+
+
+		    <p><button type="submit" class="am-btn am-btn-default">提交</button></p>
+		  </fieldset>
+		</form>
+	</div>
+
+
+
+  <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default "
+      id="">
+      <ul class="am-navbar-nav am-cf am-avg-sm-4">
+          <li >
+            <a href="tel:123456789" class="">
+                  <span class="am-icon-phone"></span>
+                <span class="am-navbar-label">呼叫</span>
+            </a>
+          </li>
+          <li data-am-navbar-share>
+            <a href="###" class="">
+                  <span class="am-icon-share-square-o"></span>
+                <span class="am-navbar-label">分享</span>
+            </a>
+          </li>
+          <li data-am-navbar-qrcode>
+            <a href="###" class="">
+                  <span class="am-icon-qrcode"></span>
+                <span class="am-navbar-label">二维码</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/flykeying/inputShow" class="">
+                  <span class="am-icon-github"></span>
+                <span class="am-navbar-label">GitHub</span>
+            </a>
+          </li>
+      </ul>
+  </div>
+
+</body>
+</html>
