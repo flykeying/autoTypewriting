@@ -19,7 +19,6 @@ function autoTypewriting(obj){
 	var gsr = parseInt(window.screen.height*0.382) //相对于top的黄金分割点位置
 	var objTop = getTop(obj)
 	if (  objTop > gsr ){
-		console.log('true')
 		var pageHight = document.body.scrollHeight
 		var newPageHight = document.body.scrollHeight*2
 		document.body.style.height = newPageHight+'px'
