@@ -31,8 +31,12 @@ function narrowBody(){
 	document.body.style.height = newPageHight+'px'
 }
 function getTop(e){
-	//30是一个相对于黄金分割点的系数 建议在30-50之间
+  //30是一个相对于黄金分割点的系数 建议在30-50之间
   var offset=e.offsetTop;
+  while(e.offsetParent){
+    e = e.offsetParent;
+    offset += e.offsetTop;
+  }
   offset = offset - document.documentElement.scrollTop+30
   return offset;
 }
